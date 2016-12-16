@@ -1,3 +1,13 @@
 @include font-face('FjallaOne-Regular');
 @include font-face('PlayfairDisplay-Bold');
 @include font-face('OpenSans-Regular');
+
+.logo h3 {
+  font-family: 'PlayfairDisplay-Bold';
+}
+
+.links li {
+  font-family: 'FjallaOne-Regular';
+  font-size: 15px;
+  letter-spacing: 0.2em;
+}
