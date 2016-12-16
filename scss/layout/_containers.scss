@@ -20,6 +20,8 @@
   color: $white;
   h3 {
     margin-left: 1em;
+    font-family: 'PlayfairDisplay-Bold';
+    letter-spacing: 0.1em;
   }
 }
 
@@ -31,7 +33,9 @@
   color: $white;
   text-transform: uppercase;
   li {
-    margin-left: 1em;
+    margin-left: 2.5em;
+    font-family: 'FjallaOne-Regular';
     font-size: 15px;
+    letter-spacing: 0.2em;
   }
 }
