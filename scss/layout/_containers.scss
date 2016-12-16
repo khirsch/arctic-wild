@@ -1,16 +1,16 @@
 .header {
   background: url('#{$img-path}/hero-slide.jpg');
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5em 10em;
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 10.5em 3.5em;
+  }
 }
 
 .logo {
@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  padding-top: 0.5em;
   list-style: none;
   li {
     margin-left: 2.5em;
