@@ -2,6 +2,10 @@
 @include font-face('PlayfairDisplay-Bold');
 @include font-face('OpenSans-Regular');
 
+* {
+  color: $white;
+}
+
 .logo h3 {
   font-family: 'PlayfairDisplay-Bold';
   font-size: 25px;
@@ -9,6 +13,21 @@
 
 .links li {
   font-family: 'FjallaOne-Regular';
+  text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 0.2em;
+}
+
+.title {
+  p:first-of-type {
+    font-family: 'FjallaOne-Regular';
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+  }
+  p:last-of-type {
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 120px;
+    margin-top: -20px;
+  }
 }
