@@ -1,0 +1,36 @@
+.header {
+  background: url('#{$img-path}/hero-slide.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5em 10em;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $white;
+  h3 {
+    margin-left: 1em;
+  }
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  color: $white;
+  text-transform: uppercase;
+  li {
+    margin-left: 1em;
+  }
+}
