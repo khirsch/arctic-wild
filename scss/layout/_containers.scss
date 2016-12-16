@@ -36,3 +36,20 @@
 .title {
   text-align: center;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 10em;
+  background: $charcoal;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    li {
+      list-style: none;
+      margin-right: 2em;
+    }
+  }
+}
