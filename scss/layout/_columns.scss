@@ -1,0 +1,8 @@
+.gallery .row {
+  height: 40vh;
+  background: $charcoal;
+  border: 1px solid white;
+  .tile {
+    @include span-columns(4 of 12);
+  }
+}
