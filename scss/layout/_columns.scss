@@ -1,5 +1,5 @@
-.first-row .tile {
-  @include span-columns(4 of 12);
+.tile {
+  @include span-columns(6 of 12);
   height: 50vh;
   display: flex;
   margin: 0;
@@ -18,24 +18,17 @@
     background-position: center;
     width: 25vw;
   }
-}
-
-.second-row .tile {
-  @include span-columns(4 of 12);
-  height: 50vh;
-  display: flex;
-  margin: 0;
-  &:nth-child(1) {
+  &:nth-child(4) {
     background: url('#{$img-path}/home-canoe.jpg');
     background-position: center;
     width: 25vw;
   }
-  &:nth-child(2) {
+  &:nth-child(5) {
     background: url('#{$img-path}/home-photo.jpg');
     background-position: center;
     width: 25vw;
   }
-  &:nth-child(3) {
+  &:nth-child(6) {
     background: url('#{$img-path}/home-custom.jpg');
     background-position: center;
     width: 50vw;
