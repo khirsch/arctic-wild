@@ -1,8 +1,43 @@
-.gallery .row {
-  height: 40vh;
-  background: $charcoal;
-  border: 1px solid white;
-  .tile {
-    @include span-columns(4 of 12);
+.first-row .tile {
+  @include span-columns(4 of 12);
+  height: 50vh;
+  display: flex;
+  margin: 0;
+  &:nth-child(1) {
+    background: url('#{$img-path}/home-raft.jpg');
+    background-position: center;
+    width: 50vw;
+  }
+  &:nth-child(2) {
+    background: url('#{$img-path}/home-basecamp.jpg');
+    background-position: center;
+    width: 25vw;
+  }
+  &:nth-child(3) {
+    background: url('#{$img-path}/home-backpacking.jpg');
+    background-position: center;
+    width: 25vw;
+  }
+}
+
+.second-row .tile {
+  @include span-columns(4 of 12);
+  height: 50vh;
+  display: flex;
+  margin: 0;
+  &:nth-child(1) {
+    background: url('#{$img-path}/home-canoe.jpg');
+    background-position: center;
+    width: 25vw;
+  }
+  &:nth-child(2) {
+    background: url('#{$img-path}/home-photo.jpg');
+    background-position: center;
+    width: 25vw;
+  }
+  &:nth-child(3) {
+    background: url('#{$img-path}/home-custom.jpg');
+    background-position: center;
+    width: 50vw;
   }
 }
