@@ -30,6 +30,9 @@
     font-family: 'PlayfairDisplay-Bold';
     font-size: 120px;
     margin: -20px auto 20px;
+    @media only screen and #{$tablet} {
+      font-size: 100px;
+    }
   }
 }
 
