@@ -1,4 +1,4 @@
-hr {
+.title hr {
   display: block;
   margin: auto;
   border: 0;
@@ -25,4 +25,10 @@ hr {
   img {
     max-width: 100%;
   }
+}
+
+.separator {
+  width: 40px;
+  height: 5px;
+  background: $orange;
 }
