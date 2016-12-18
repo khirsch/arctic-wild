@@ -12,21 +12,33 @@
     background: url('#{$img-path}/home-basecamp.jpg');
     background-position: center;
     width: 25vw;
+    @media only screen and #{$tablet} {
+      width: 50vw;
+    }
   }
   &:nth-child(3) {
     background: url('#{$img-path}/home-backpacking.jpg');
     background-position: center;
     width: 25vw;
+    @media only screen and #{$tablet} {
+      width: 50vw;
+    }
   }
   &:nth-child(4) {
     background: url('#{$img-path}/home-canoe.jpg');
     background-position: center;
     width: 25vw;
+    @media only screen and #{$tablet} {
+      width: 50vw;
+    }
   }
   &:nth-child(5) {
     background: url('#{$img-path}/home-photo.jpg');
     background-position: center;
     width: 25vw;
+    @media only screen and #{$tablet} {
+      width: 50vw;
+    }
   }
   &:nth-child(6) {
     background: url('#{$img-path}/home-custom.jpg');
